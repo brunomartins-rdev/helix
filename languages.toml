@@ -1,2 +1,7 @@
 [[language]]
 name = "r"
+auto-format = true
+
+[[language]]
+name = "python"
+auto-format = true
