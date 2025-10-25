@@ -10,3 +10,7 @@ file-types = ["py"]
 roots = []
 comment-token = "#"
 
+[[language]]
+name = "cpp"
+language-servers = ["clangd"]
+
