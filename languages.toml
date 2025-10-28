@@ -14,3 +14,13 @@ comment-token = "#"
 name = "cpp"
 language-servers = ["clangd"]
 
+[[language]]
+name = "latex"
+file-types = ["tex", "sty", "cls", "ltx"]
+language-servers = ["texlab"]
+auto-format = true
+
+[language.formatter]
+command = "latexindent"
+args = ["-w"]
+
